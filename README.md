@@ -1,2 +1,17 @@
-# brazil-unemployment-analysis
-Exploratory data analysis of unemployment trends in Brazil using official IBGE data.
+# Brazil Unemployment Analysis
+
+## 📌 Project Overview
+
+## 📊 Dataset
+
+## 🛠️ Tools and Technologies
+
+## 🔍 Analysis Steps
+
+## 📈 Key Insights
+
+## 📂 Project Structure
+
+## 🚀 How to Run
+
+## 📎 References
