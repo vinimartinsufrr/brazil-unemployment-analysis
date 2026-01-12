@@ -1,29 +1,40 @@
-# Brazil Unemployment Analysis
+# Brazil Unemployment Analysis 🇧🇷
+
+![Unemployment Trend](data/unemployment_trend.png)
+*(Evolution of unemployment rate in Brazil based on IBGE PNAD Contínua data)*
 
 ## 📊 Project Overview
-This project analyzes unemployment data in Brazil using official public datasets.
-The goal is to explore trends, regional differences, and historical behavior of unemployment rates through data analysis techniques.
+This project analyzes unemployment data in Brazil using official public datasets. The goal is to explore trends and historical behavior of unemployment rates through automated data collection and analysis.
+
+**Key Findings:**
+- **Economic Crisis (2015-2017):** Unemployment surged from ~6.5% to a peak of over 13%.
+- **Pandemic Impact (2020-2021):** A second major spike occurred due to COVID-19, reaching nearly 15%.
+- **Current Recovery:** Since 2022, there has been a consistent downward trend, reaching historical lows (~5-6%) in 2025.
 
 ## 🎯 Objectives
-- Analyze the evolution of unemployment rates in Brazil over time
-- Compare unemployment levels between regions and states
-- Practice data analysis skills using real-world public data
-- Build a data analysis project focused on clarity, reproducibility, and insights
+- Automated data collection via API (IBGE SIDRA).
+- Data cleaning and transformation (ETL).
+- Time series visualization and interpretation.
+- Practice data analysis skills using real-world public data.
 
 ## 🗂️ Data Source
-The data used in this project comes from the **IBGE (Brazilian Institute of Geography and Statistics)**, specifically from the **PNAD Contínua** survey, which provides official unemployment indicators for Brazil.
+The data is officially sourced from **IBGE (Brazilian Institute of Geography and Statistics)** via the **PNAD Contínua** survey using their public API (SIDRA).
 
-## 🛠️ Technologies (Planned)
-- Python
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
-- Git & GitHub
+## 🛠️ Technologies
+- **Language:** Python
+- **Data Manipulation:** Pandas
+- **Visualization:** Matplotlib, Seaborn
+- **Development:** Jupyter Notebook
+- **Version Control:** Git & GitHub
 
 ## 📁 Project Structure
-- `data/`: datasets used in the analysis
-- `notebooks/`: Jupyter notebooks for data exploration and analysis
-
-## 🚧 Project Status
-This project is currently under development.
+```text
+brazil-unemployment-analysis/
+├── data/
+│   ├── raw/       # Raw CSV files from API
+│   └── ...        # Generated charts/images
+├── notebooks/
+│   ├── 01_data_collection.ipynb    # API consumption script
+│   └── 02_exploratory_analysis.ipynb # Data cleaning & visualization
+├── src/           # Reusable code (future implementation)
+└── README.md
