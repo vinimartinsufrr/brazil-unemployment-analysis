@@ -22,7 +22,8 @@ The data used in this project comes from the **IBGE (Brazilian Institute of Geog
 - Git & GitHub
 
 ## 📁 Project Structure
-This section will be updated as the project evolves.
+- `data/`: datasets used in the analysis
+- `notebooks/`: Jupyter notebooks for data exploration and analysis
 
 ## 🚧 Project Status
 This project is currently under development.
