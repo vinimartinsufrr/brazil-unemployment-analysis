@@ -1,17 +1,28 @@
 # Brazil Unemployment Analysis
 
-## 📌 Project Overview
+## 📊 Project Overview
+This project analyzes unemployment data in Brazil using official public datasets.
+The goal is to explore trends, regional differences, and historical behavior of unemployment rates through data analysis techniques.
 
-## 📊 Dataset
+## 🎯 Objectives
+- Analyze the evolution of unemployment rates in Brazil over time
+- Compare unemployment levels between regions and states
+- Practice data analysis skills using real-world public data
+- Build a data analysis project focused on clarity, reproducibility, and insights
 
-## 🛠️ Tools and Technologies
+## 🗂️ Data Source
+The data used in this project comes from the **IBGE (Brazilian Institute of Geography and Statistics)**, specifically from the **PNAD Contínua** survey, which provides official unemployment indicators for Brazil.
 
-## 🔍 Analysis Steps
+## 🛠️ Technologies (Planned)
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
+- Git & GitHub
 
-## 📈 Key Insights
+## 📁 Project Structure
+This section will be updated as the project evolves.
 
-## 📂 Project Structure
-
-## 🚀 How to Run
-
-## 📎 References
+## 🚧 Project Status
+This project is currently under development.
